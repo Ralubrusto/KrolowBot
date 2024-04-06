@@ -88,7 +88,8 @@ def find_matching_name(chemical_name, lib):
 
 if __name__ == "__main__":
 
-    args = parser.parse_args(['exemplo_2'])
+    #  args = parser.parse_args(['exemplo_2'])
+    args = parser.parse_args()
 
     # Variáveis iniciais
     now = datetime.now()
